@@ -37,13 +37,13 @@
             </li> -->
           </ul>
          <ul class="nav navbar-nav navbar-right">
-            <li ><a href="index.html">Inicio</a></li>
-            <li class="active"><a href="equipo.html">Equipo</a></li>
-            <li ><a href="eventos.html">Eventos</a></li>
-            <li><a href="galeria.html">Galeria</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="wiki.html">Wiki</a></li>
-            <li><a href="patrocinadores.html">Patrcinadores</a></li>
+            <li><%= link_to "Index", :controller => :index, :action => :index %></li>
+            <li><%= link_to "Equipo", :controller => :index, :action => :equipo %></li>
+            <li><%= link_to "Eventos", :controller => :index, :action => :eventos %></li>
+            <li><%= link_to "Galeria", :controller => :index, :action => :galeria %></li>
+            <li><%= link_to "Contacto", :controller => :index, :action => :contacto %></li>
+            <li><%= link_to "Wiki", :controller => :index, :action => :wiki %></li>
+            <li><%= link_to "Patrocinadores", :controller => :index, :action => :patrocinadores %></li>
           </ul>
         </div><!--/.nav-collapse -->
         </div>
